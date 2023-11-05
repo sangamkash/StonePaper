@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93a2133c7487a9343a38a538c927e9a9, type: 3}
+  m_Name: GameRules
+  m_EditorClassIdentifier: 
+  gameRulesChart:
+  - HandGesture: 0
+    winAgainst: 0200000003000000
+  - HandGesture: 1
+    winAgainst: 0000000004000000
+  - HandGesture: 2
+    winAgainst: 0100000003000000
+  - HandGesture: 3
+    winAgainst: 0100000004000000
+  - HandGesture: 4
+    winAgainst: 0000000002000000
